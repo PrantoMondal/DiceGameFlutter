@@ -1,3 +1,4 @@
+import 'package:dice_game/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal
       ),
+      home: HomePage(),
     );
   }
 }
